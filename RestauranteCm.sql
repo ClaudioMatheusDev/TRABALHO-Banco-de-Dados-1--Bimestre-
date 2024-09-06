@@ -13,8 +13,8 @@ CREATE TABLE Cliente
 
 CREATE TABLE Encomendas 
 ( 
- idCliente INT,  
  ID_Encomenda INT PRIMARY KEY,  
+ idCliente INT, 
  Data DATE,  
 ); 
 
